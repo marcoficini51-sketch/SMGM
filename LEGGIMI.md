@@ -1,3 +1,5 @@
+> **PRE-ALFA** — progetto non finito: bug noti (boss non condivisi, selezione stelle non sincronizzata). Usalo a tuo rischio.
+
 # Super Mario Galaxy — Multiplayer online
 
 Pacchetto completo: server, client, strumenti di prova e sorgenti.
@@ -59,13 +61,6 @@ Vai in `server-windows/` e fai doppio clic su **`Avvia server.bat`**.
 Le istruzioni complete (firewall, Radmin VPN, port forwarding, CGNAT) sono
 in `server-windows/LEGGIMI-WINDOWS.md`.
 
-### Ospitare su una VPS Linux
-
-Vai in `server-linux/`, copia la cartella sulla macchina e lancia
-`sudo ./deploy.sh --open-firewall`. Compila, installa il servizio systemd e
-ti stampa la riga da mettere nel `serverIP.txt`. Dettagli in
-`server-linux/README.md`.
-
 ### Giocare
 
 Vai in `client/` e fai doppio clic su **`Connetti al server.bat`**.
@@ -80,7 +75,6 @@ l'indirizzo del server e prova la connessione. Istruzioni passo passo in
 | Cartella | Cosa c'è |
 |---|---|
 | `server-windows/` | `SMGServer.exe` nativo e statico, il pannello di controllo, i giocatori di prova |
-| `server-linux/` | script di installazione, servizio systemd, sorgenti da compilare sul posto |
 | `client/` | pannello di connessione, file del mod da mettere in Dolphin, logo personalizzato |
 | `strumenti/` | `Follow.exe` (un Mario che ti ripete), `Observer.exe` (spia il traffico), `Sniff.exe` (chi manda i pesi della camminata) |
 | `sorgenti/` | i due patch, il sorgente del mod, il PNG del logo |

@@ -1,7 +1,6 @@
 # Super Mario Galaxy Multiplayer
 
-> ⚠️ **PRE-ALPHA** – this project is **not finished**. Expect bugs, desyncs and the occasional crash. Use it at your own risk.
-
+> ⚠️ **PRE-ALPHA** – this project is **not finished**. Expect bugs, desyncs and the occasional crash. 
 A mod for playing **Super Mario Galaxy** online with friends on **Dolphin** (via Riivolution). Everyone plays their own copy of the game and sees the other players running around the same galaxy in real time – as **Mario or Luigi**.
 
 > Based on **Headpenguin**'s multiplayer mod ([SMGNetworkMultiplayer](https://github.com/Headpenguin/SMGNetworkMultiplayer)). This project adds a Windows server and client with control panels, plus a set of new features listed below.
